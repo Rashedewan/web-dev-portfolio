@@ -83,15 +83,14 @@ nav li a{
     
 }
 .banner-content{
-    width:580px;
+    max-width:580px;
     
 }
 .first-head{
     font-weight: 600;
     font-size: 45px;
     color: #474747;
-    
-    
+   
 }
 .first-head-big{
     font-weight: 800;
@@ -105,4 +104,36 @@ nav li a{
 }
 .banner-pro-pic{
     width: 584px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    padding: 131px 156px; 
+    margin-top: 25px; 
+}
+
+.align-text{
+    text-align: center;
+}
+
+.section-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: #d4c2c2;
+    font-size: 20px;
 }
